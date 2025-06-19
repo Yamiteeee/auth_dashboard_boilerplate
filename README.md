@@ -34,16 +34,16 @@ A foundational **Flutter boilerplate** project providing a clean, structured sta
 - Flutter SDK installed
 - IDE (VS Code, Android Studio, etc.) with Flutter & Dart plugins
 
+Markdown
+
 ### 📥 Installation
 
-```bash
-git clone [https://github.com/Yamiteeee/auth_dashboard_boilerplate.git](https://github.com/YOUR_USERNAME/auth_dashboard_boilerplate.git)
+```
+git clone https://github.com/Yamiteeee/auth_dashboard_boilerplate.git
 cd auth_dashboard_boilerplate
 flutter pub get
 flutter run
-
-
-
+```
 🔑 Authentication Details
 The project uses a mock AuthService (lib/services/auth_service.dart) with hardcoded credentials for demonstration:
 
@@ -53,12 +53,8 @@ Password: password123
 Sign-Up: You can register new users; they will be added to the in-memory mock user list for the current session.
 To integrate with a real backend (e.g., Firebase, REST API):
 Modify the login and signUp methods within lib/services/auth_service.dart to make actual API calls or use a chosen authentication SDK.
-
-
-
-
+```
 📂 Project Structure
-
 auth_dashboard_boilerplate/
 ├── lib/
 │   ├── main.dart             # App entry point
@@ -72,9 +68,9 @@ auth_dashboard_boilerplate/
 │       └── auth_service.dart # Auth logic (mock or real)
 ├── pubspec.yaml              # Dependencies & metadata
 └── README.md                 # This file
-
-
+```
 📄 License
 This project is open-source and available under the MIT License.
+
 
 
