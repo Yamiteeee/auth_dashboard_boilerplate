@@ -18,13 +18,22 @@ Responsive UI: Designed with standard Flutter widgets for adaptive layouts acros
 
 Google Fonts Integration: Uses the 'Inter' font for a modern typographic look.
 
+📊 Latest Updates
+I've recently enhanced this boilerplate with the following improvements:
+
+Improved UI/UX
+Refined the visual styling of both Login and Sign-Up screens for a more modern and intuitive user experience. Enhanced input field aesthetics and button feedback.
+
+Robust Mock Authentication
+Strengthened the mock authentication service to include more comprehensive error handling and basic password validation during sign-up, making it a more realistic placeholder for future API integration.
+
 🚀 Getting Started
-Follow these steps to get the project up and running on your local machine.
+To run this project locally, follow these steps:
 
 Prerequisites
-Flutter SDK installed (version 3.8.1 or newer recommended)
+Flutter SDK installed.
 
-IDE (VS Code, Android Studio, IntelliJ IDEA) with Flutter and Dart plugins
+IDE (VS Code, Android Studio, IntelliJ IDEA) with Flutter and Dart plugins.
 
 Installation
 Clone the repository:
